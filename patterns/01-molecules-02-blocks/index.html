@@ -4,16 +4,38 @@
     <title>Pattern Lab</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    
-    <link rel="stylesheet" href="../../css/style.css?1603378431413" media="all" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1603378431413" media="all" />
+    <link rel="stylesheet" href="https://use.typekit.net/orc0djo.css">
+    <link rel="stylesheet" href="../../css/styles.css?1605471507898" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1605471507898" media="all" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
-    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1603378431413" media="all">
+    <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1605471507898" media="all">
     <!-- End Pattern Lab -->
   
   </head>
-  <body class="body"><!-- View All Patterns in a Pattern Sub-Type -->
+  <body class="body">
+  <div style="position: fixed;z-index: 10;background-color: white;font-size: 12px; padding: 5px 10px;border: 1px solid #ccc; border-top:0; border-right:0; right:0;">
+  <div class="field-container">
+        <label for="color-select">Select Color Scheme</label>
+        <select id="color-select">
+                <option value="default">Default</option>
+                <option value="tdf">Tour de France</option>
+                <option value="giro">Giro d'Italia</option>
+                <option value="vuelta">Vuelta a España</option>
+            </optgroup>
+        </select>
+    </div>
+  </div><!-- View All Patterns in a Pattern Sub-Type -->
 <div class="pl-c-main">
   
 	<!-- Index of Patterns -->
@@ -67,20 +89,11 @@
 			    </div><!--end pl-c-pattern__extra-->
 			
 				<div class="pl-js-pattern-example">
-				<div class="block block-thumb">
-    <a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
-		<div class="b-text">
-			<h2 class="b-title">Lorem ipsum dolor sit (37 characters)</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
-	</a>
-</div>
+				
 				</div><!--end pl-js-pattern-example-->
 			
 				<script type="text/json" id="pl-pattern-data-molecules-media-block" class="pl-js-pattern-data">
-				{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-square","lineagePath":"../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.rendered.html"}],"lineage":[{"lineagePattern":"atoms-square","lineagePath":"../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.rendered.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"},{"lineagePattern":"organisms-latest-posts","lineagePath":"../../patterns/02-organisms-03-sections-00-latest-posts/02-organisms-03-sections-00-latest-posts.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"},{"lineagePattern":"organisms-latest-posts","lineagePath":"../../patterns/02-organisms-03-sections-00-latest-posts/02-organisms-03-sections-00-latest-posts.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Media Block","patternPartial":"molecules-media-block","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"},{"lineagePattern":"organisms-latest-posts","lineagePath":"../../patterns/02-organisms-03-sections-00-latest-posts/02-organisms-03-sections-00-latest-posts.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"},{"lineagePattern":"organisms-latest-posts","lineagePath":"../../patterns/02-organisms-03-sections-00-latest-posts/02-organisms-03-sections-00-latest-posts.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Media Block","patternPartial":"molecules-media-block","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
 				</script>
 			
 			</div><!--end pl-c-pattern-->			<div id="molecules-block-headline-byline" class="pl-c-pattern">
@@ -169,19 +182,11 @@
 			    </div><!--end pl-c-pattern__extra-->
 			
 				<div class="pl-js-pattern-example">
-				<div class="block block-hero">
-	<a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_16x9.png" alt="16x9 Image" />		</div>
-		<div class="b-text">
-			<h2 class="b-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)</h2>
-		</div>
-	</a>
-</div>
+				
 				</div><!--end pl-js-pattern-example-->
 			
 				<script type="text/json" id="pl-pattern-data-molecules-block-hero" class="pl-js-pattern-data">
-				{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-landscape-16x9","lineagePath":"../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.rendered.html"}],"lineage":[{"lineagePattern":"atoms-landscape-16x9","lineagePath":"../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.rendered.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Hero","patternPartial":"molecules-block-hero","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Hero","patternPartial":"molecules-block-hero","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
 				</script>
 			
 			</div><!--end pl-c-pattern-->			<div id="molecules-block-thumb-headline" class="pl-c-pattern">
@@ -221,19 +226,11 @@
 			    </div><!--end pl-c-pattern__extra-->
 			
 				<div class="pl-js-pattern-example">
-				<div class="block block-thumb">
-	<a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
-		<div class="b-text">
-			<h2 class="b-title">Pattern Lab</h2>
-		</div>
-	</a>
-</div>
+				
 				</div><!--end pl-js-pattern-example-->
 			
 				<script type="text/json" id="pl-pattern-data-molecules-block-thumb-headline" class="pl-js-pattern-data">
-				{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-square","lineagePath":"../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.rendered.html"}],"lineage":[{"lineagePattern":"atoms-square","lineagePath":"../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Thumb Headline","patternPartial":"molecules-block-thumb-headline","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Thumb Headline","patternPartial":"molecules-block-thumb-headline","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
 				</script>
 			
 			</div><!--end pl-c-pattern-->			<div id="molecules-block-headline" class="pl-c-pattern">
@@ -321,19 +318,11 @@
 			    </div><!--end pl-c-pattern__extra-->
 			
 				<div class="pl-js-pattern-example">
-				<div class="block block-inset">
-    <a href="#" class="inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_4x3.png" alt="4x3 Image" />		</div>
-		<div class="b-text">
-			<h2 class="headline">Lorem ipsum dolor sit (37 characters)</h2>
-		</div>
-	</a>
-</div>
+				
 				</div><!--end pl-js-pattern-example-->
 			
 				<script type="text/json" id="pl-pattern-data-molecules-block-inset" class="pl-js-pattern-data">
-				{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"atoms-landscape-4x3","lineagePath":"../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.rendered.html"}],"lineage":[{"lineagePattern":"atoms-landscape-4x3","lineagePath":"../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.rendered.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Inset","patternPartial":"molecules-block-inset","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
+				{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"lineageR":[{"lineagePattern":"templates-homepage","lineagePath":"../../patterns/03-templates-01-homepage/03-templates-01-homepage.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"molecules","patternSubtype":"blocks"},"patternExtension":"twig","patternName":"Block Inset","patternPartial":"molecules-block-inset","patternState":"","patternEngineName":"twig-php","extraOutput":{}}
 				</script>
 			
 			</div><!--end pl-c-pattern-->
@@ -382,10 +371,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1603378431413">
+<script id="pl-js-polyfill-insert-1605471507898">
   (function() {
     if (self != top) {
-      var cb = '1603378431413';
+      var cb = '1605471507898';
       var js = [];
       scriptLoader.run(js,cb,'pl-js-polyfill-insert');
     }
@@ -398,7 +387,7 @@
   import('../../styleguide/js/patternlab-pattern.modern.js');
 </script>
 
-<script id="pl-js-insert-1603378431413" nomodule>
+<script id="pl-js-insert-1605471507898" nomodule>
   /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on http://goo.gl/REQGQ by Paul Irish). Licensed MIT */
   !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
 
@@ -406,6 +395,20 @@
   loadJS('../../styleguide/js/patternlab-pattern.js');
 </script>
 
-  
+  <script>
+    function colorChange(event) {
+      const value = event.target.value;
+      const body = document.querySelector("body");
+        if (value === "default"){
+          body.classList.remove("tdf","giro","vuelta");
+        } else {
+          body.classList.remove("tdf","giro","vuelta");
+          body.classList.add(value);
+        }
+     }
+    const colorSelector = document.querySelector("#color-select");
+      colorSelector.addEventListener("change", colorChange);
+
+  </script>
   </body>
 </html>

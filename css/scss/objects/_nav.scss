@@ -2,51 +2,48 @@
     $NAVIGATION
 \*------------------------------------*/
 
-.nav {
-	clear: both;
-	overflow: hidden;
-	max-height: 0;
-	
-	a {
-		display: block;
-		padding: $pad;
-		border-top: 1px solid $gray-light-2;
-	}
+nav.primary-nav {
+  width: 100vw;
+  background-color: var(--primary, $brand-primary);
+  color: var(--primary-txt, $brand-primary-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-	&.active {
-		max-height: 40em;
-	}
+.primary-nav__top-bar {
+  display: flex;
+  justify-content: space-between;
+}
 
-	@media all and (min-width: $bp-med) {
-		max-height: none;
-		float: right;
-		clear: none;
+.primary-nav__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  // margin: 0;
+}
 
-		li {
-			float: left;
-		}
-
-		a {
-			border: 0;
-		}
-		
-	}
+.primary-nav__items-container {
+  padding: $pad-double;
 }
 
 //Pagination
 .pagination {
-	overflow: hidden;
+  overflow: hidden;
 
-	li {
-		float: left;
-		border-right: 1px solid $gray-light-2;
+  li {
+    float: left;
+    border-right: 1px solid $gray-light-2;
 
-		&:last-child {
-			border: 0;
-		}
-	}
+    &:last-child {
+      border: 0;
+    }
+  }
 
-	a {
-		padding: $pad;
-	}
+  a {
+    padding: $pad;
+  }
 }
