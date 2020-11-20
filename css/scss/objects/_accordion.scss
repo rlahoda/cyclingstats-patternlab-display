@@ -1,33 +1,18 @@
-.accordion {
-	margin-bottom: $space;
+details summary::-webkit-details-marker {
+  display: none;
 }
 
-.acc-handle {
-	background: $gray-dark-2;
-	color: $white;
-	font-family: $font-secondary;
-	font-weight: bold;
-	display: block;
-	position: relative;
-	padding: $pad-half;
-	border-bottom: 1px solid $gray-light-3;
+summary {
+  list-style: none;
+  display: block;
+  cursor: pointer;
+  border-bottom: 1px solid $gray-light-3;
+}
 
-	&:after {
-		content:"+";
-		float: right;
-	}
-		
-	&:hover {
-		color: $white;
-		background: $gray-dark;
-
-	}
-	
-	&.active {
-		background: $gray-dark;
-
-		&:after {
-			content:"-";
-		}
-	}
+details.accordion {
+  width: 100%;
+  padding: $pad-half;
+  background-color: $gray-dark;
+  color: $white;
+  border-radius: 0 $border-radius;
 }
