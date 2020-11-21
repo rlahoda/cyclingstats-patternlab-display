@@ -37,8 +37,10 @@ function accordionToggle(event) {
 
 
 function accordionInit() {
-  const button = document.querySelector('.accordion__close-button');
-  button.addEventListener('click',accordionToggle);
+  const buttonList = document.querySelectorAll('.accordion__close-button');
+  for (const button of buttonList) {
+    button.addEventListener('click',accordionToggle);
+  }
 }
 navInit();
 accordionInit();

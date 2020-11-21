@@ -1,82 +1,17 @@
 <details class="accordion" id="accordion1">
   <summary>
     <span class="gamma">Info</span></summary>
-  <div class="accordion__content">
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-    <p>
-      Content</p>
-  </div>
-  <button class="accordion__close-button" value="accordion1"></button>
+
+  {% include "@atoms/07-tables/00-table.html.twig" %}
+
+  <button class="accordion__close-button" value="accordion1">
+    <span class="visually-hidden">Close</span></button>
 </details>
-<details class="accordion">
+<details id="accordion2" class="accordion">
   <summary class="gamma">Info</summary>
   <div class="accordion__content">
     Content
   </div>
-  <button class="accordion__close-button">Close</button>
+  <button class="accordion__close-button" value="accordion2">
+    <span class="visually-hidden">Close</span></button>
 </details>
